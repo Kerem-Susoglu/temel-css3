@@ -1,0 +1,61 @@
+.ClassSeciciBir{ /* belirlenen class seçiciler için */
+    font-size: 15px; /* font büyüklüğünü belirler */
+    font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif; /* font yazı tipini belirler */
+    color: blue;
+    font-weight: bold; /* metni kalınlaştırır */
+    font-style: italic; /* italıc olarak belirler */
+}
+p{ /* tum p elemanları için  */
+    font-size: 15px;
+}
+#İdSecici{ /* belirlenen id seciciler için */
+    
+    color: red;
+}
+.box{
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+    border-width: 10px;
+}
+.metin{
+    word-spacing: 4px;/* yer alan kelimelerin arasındakş boşluğu ayarlar */
+}
+.metinBir{
+    text-decoration: underline; /* altına çizgi çizer */
+    /*   
+     text-decoration: overline; >>>> metnin ust kısmına çizgi çizer
+     text-decoration: line-through; >>>>> metnin ortaısndan çizgi çizer
+     text-decoration: none; >>>>> hepsini devre dışı bırakır
+     */
+}
+.metinİki{
+    text-transform: lowercase; /* buyuk yazılmıs metni kucuk yapar */
+    
+    /* text-transform: uppercase; >>>> küçük metinleri büyük yazar
+    text-transform: capitalize; >>>>> sadece ilk harfleri büyük yapar
+    
+    */
+    text-align: center; /* metnin konumlandırmasını yapar 
+    line-height: 1cm; satırlar arası yukskelik belirler
+    */
+}
+.kutuİki{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px; /* margin özelliği kenardaki boşluğu belirler */
+}
+.ornekhover{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.ornekhover:hover { /* mouse uzerine gelince olacak efektler */
+    transition: 0.5s;
+    color: gray;
+}
+/* DAHA DETAYLI CSS3 ANLATIMI SIFIRDAN İLERİYE PHP  İLE GELİCEK  */
